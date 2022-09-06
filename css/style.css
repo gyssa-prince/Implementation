@@ -587,6 +587,11 @@ font-size: 12px;
 .serviceAll{
     display: block;
 }
+.dots{
+    position: relative;
+    margin-top: 10px; 
+     font-size: 36px;
+}
 .serviceSlide {
 width:100%;
 position: relative;
