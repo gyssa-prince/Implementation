@@ -590,7 +590,8 @@ font-size: 12px;
 .dots{
     position: relative;
     margin-top: 10px; 
-     font-size: 36px;
+     font-size: 24px;
+     margin-left: 60px;
 }
 .serviceSlide {
 width:100%;
