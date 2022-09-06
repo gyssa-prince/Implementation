@@ -83,7 +83,7 @@
     right: 8%;
 }
 .search p{
-margin-top: 5px;
+margin-top: 10px;
 }
 .icon{
     padding-inline: 10px;
@@ -221,6 +221,7 @@ font-size: 16px;
     margin-left: 8%;
     padding-inline: 17px;
     height: fit-content;
+    width: 90%;
 }
 .serviceWords{
     color: #fff;
@@ -258,18 +259,20 @@ a{
     margin-top: 40px;
     white-space:nowrap;
     overflow-x:auto;
+    overflow: hiden;
     position: absolute;
     width:40%;
+    height: 680px;
     right: 0;
   }
-  .do1{
-    width:340px;
-    height:550px;
-    display:inline-block;
-    white-space:normal;
-    overflow-x: auto;
-    font-weight: 300;
-}
+    .do1{
+        width:340px;
+        height:550px;
+        display:inline-block;
+        white-space:normal;
+        overflow-x: auto;
+        font-weight: 300;
+    }
 .do1 img{
     height: 550px;
     width: 320px;
@@ -291,6 +294,37 @@ a{
  margin-top: -30px;
  border-top: 1px solid black;
 }
+.swiper {
+    width: 100px;
+    height: 400px;
+    text-align: center;
+    margin-inline: 30px;
+}
+
+
+.swiper-slide{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    transition: .5s linear;
+}
+  .swiper-pagination {
+    padding-top: 10px;
+    width: 5rem !important;
+    height: 5rem !important;
+  }
+  .swiper-pagination-bullet{
+    width: 4rem !important;
+    height: 4rem !important;
+  }
+.swiper-pagination-bullet-active {
+    background-color: var(--main-color) !important;
+  
+}
+
 .row{
     padding-top: 60px;
 }
@@ -407,6 +441,7 @@ footer li{
 }
 
 /* Making Responsive */
+
 @media (max-width: 1299px) {
     .end{
         margin-right: -100;
@@ -461,7 +496,17 @@ footer li{
         margin-top: 40px;
     }
   }
+
 @media (max-width:  768px) {
+    .swiper-pagination {
+        padding-top: -100px;
+        margin-top: -100px;
+        width: 5rem !important;
+        height: 5rem !important;
+      }
+      .serviceAll{
+        height: 800px;
+    }
     .MoreServices{
         margin-inline: 4%;
         padding-inline: 8px;
@@ -553,6 +598,9 @@ font-size: 12px;
    .navs{
        display: none;
    }
+   .serviceAll{
+    height: fit-content;
+}
    .search{
     display: flex;
     position: absolute;

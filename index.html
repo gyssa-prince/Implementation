@@ -15,6 +15,10 @@
 />
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
     <title>Home</title>
 </head>
 <body>
@@ -154,25 +158,47 @@
     </div>
     <div class="serviceRight">
     <div class="serviceSlide">
-      <div class="scrollable1">
-        <div class="do1">
-          <img src="Assets/Rectangle251.png">
-        </div>
-        <div class="do1">
-          <img src="Assets/Rectangle252.png">
-        </div>
-        <div class="do1">
-          <img src="Assets/Rectangle251.png">
-        </div>
+        <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide swiper-slide-1" style="background-image: url('Assets/Rectangle252.png');margin-inline: 40px; width: 400px; height: 550px;">
+                  <div class="overlay">
+                      <h1>welcome to iceland</h1>
+                      <button>book now</button>
+                  </div>
+              </div>
+              <div class="swiper-slide swiper-slide-2" style="background-image: url('Assets/screen2.png'); margin-inline: 40px; width: 400px; height: 550px;">
+                  <div class="overlay">
+                      <h1>welcome to iceland</h1>
+                      <button>book now</button>
+                  </div>
+              </div>
+              <div class="swiper-slide swiper-slide-3" style="background-image: url('Assets/screen3.png');margin-inline: 40px; width: 400px; height: 550px;">
+                  <div class="overlay">
+                      <h1>welcome to iceland</h1>
+                      <button>book now</button>
+                  </div>
+              </div>
+              <div class="swiper-slide swiper-slide-4" style="background-image: url('Assets/screen4.png');margin-inline: 40px; width: 400px; height: 550px;">
+                  <div class="overlay">
+                      <h1>welcome to iceland</h1>
+                      <button>book now</button>
+                  </div>
+              </div>
+              <div class="swiper-slide swiper-slide-4" style="background-image: url('Assets/screen4.png');margin-inline: 40px; width: 400px; height: 550px;">
+                <div class="overlay">
+                    <h1>welcome to iceland</h1>
+                    <button>book now</button>
+                </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+      
+          <div class="swiper-pagination"></div>
+          <!-- If we need scrollbar -->
+          <!-- <div class="swiper-scrollbar"></div> -->
       </div>
-    </div>
-    <div class="dots">
-      <iconify-icon icon="carbon:dot-mark"></iconify-icon>
-      <iconify-icon icon="radix-icons:dot"></iconify-icon>
-      <iconify-icon icon="radix-icons:dot"></iconify-icon>
-      <iconify-icon icon="radix-icons:dot"></iconify-icon>
-      <iconify-icon icon="radix-icons:dot"></iconify-icon>
-      </a>
     </div>
   </div>
   </div>
@@ -280,6 +306,8 @@
     </div>
   </div>
 </section>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
