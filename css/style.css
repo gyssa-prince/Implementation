@@ -278,7 +278,7 @@ a{
     position: absolute;
     margin-top: 600px; 
     padding-top: 60px;
-    margin-left: 120px;
+    margin-left: 18%;
     color: #ff4600;
      font-size: 36px;
 }
@@ -496,6 +496,9 @@ footer li{
     color: #fff;
     border: 0; 
     margin-right: 10px;
+}
+.dots{
+    margin-top: 570px;
 }
 .sub span {
 font-size: 12px;
