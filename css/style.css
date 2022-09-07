@@ -109,7 +109,7 @@ margin-top: 10px;
     margin-left: 17px;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
-    gap: 13.2%;
+    gap: 12%;
 }
 /* .navs{
     display: flex;
