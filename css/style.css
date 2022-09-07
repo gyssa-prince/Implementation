@@ -648,7 +648,7 @@ font-size: 12px;
     position: relative;
 }
 .sub span {
-    font-size: 11px;
+    font-size: 16px;
     }
   }
   @media (max-width:  700px) {
@@ -684,11 +684,43 @@ font-size: 12px;
 }
   }
   @media (max-width:  569px) {
-    .AboutHeader h1{
-        font-size: 12px;
+    .MoreServices{
+        margin-left: 1%;
+        margin-right: 2%;
+    }
+    .MoreServices hr{
+     margin-left: 120px;
+     margin-top: -20px;
+     margin-right: 6%;
+     border-top: 1px solid black;
+    }
+    .AboutHeader hr {
+        margin-inline: 10%;
+        border-top: 1px solid #FF4600;
+        margin-right: 60%;
+        margin-left: 0%;
+      }
+      .serviceAll{
+        margin-left: 2%;
+    }
+      .About{
+    margin-left: -40px;  
+    }
+    .do p{
+   font-size: 16px;
+    }
+      .AboutHeader h1{
+        padding-left: 0px;
+        font-size: large;
+    }
+    .LandingPage{
+        margin-inline: 2%;
+    }
+    .LandingPage hr{
+        margin-inline: 0px;
     }
     .title h1{
-        font-size: 14px;
+        font-size: 20px;
     }
    .navs{
        display: none;
@@ -708,7 +740,7 @@ font-size: 12px;
 }
 .LandingPage hr{
     width:100%;
-    margin-inline: 12px;
+    margin-inline: 0px;
     margin-top: 70px;
     border-top: 1px solid white;
 }
@@ -720,6 +752,10 @@ font-size: 12px;
     font-weight: 900;
     font-size: 48px;
     right: 8%;
+}
+.footerContainer{
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .navMobile1{
     display: flex;
@@ -740,7 +776,7 @@ font-size: 12px;
      margin-left: 60px;
 }
 .serviceRight {
-width:100%;
+width:110%;
 position: relative;
   }
   .do1{
@@ -772,9 +808,6 @@ position: relative;
     font-size: 18px;
     font-weight: 200;
     margin-bottom: 20px;
-}
-.MoreServices{
-    margin-inline: 9%;
 }
 .footerC {
     margin-left:15%;
