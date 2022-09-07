@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import url(//db.onlinewebfonts.com/c/05762b520e653b895a823e255f69e78e?family=Barna+Stencil);
+@font-face {
+    font-family: "CustomFont";
+    src: url("../fonts/Barna-Regular.ttf");
+    }
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +12,7 @@
   scroll-padding-top: 2rem;
   list-style: none;
   text-decoration: none;
-  font-family: "Poppins", sans-serif;
+  font-family: "CustomFont";
 }
 ::-webkit-scrollbar {
     display: none;
@@ -75,6 +80,12 @@
     position: absolute;
     margin-top:30px;
     left: 45%;
+    font-family: "CustomFont";
+    font-weight: 900;
+}
+.hero h2{
+    font-size: 20px;
+    font-weight: bolder;
 }
 .search{
     display: flex;
@@ -106,7 +117,8 @@ margin-top: 10px;
 } */
 .navs > div {
     text-align: center;
-    font-size: 17\px;
+    font-size: 20\px;
+    font-weight: 700;
   }
 
 .dropDown{
@@ -127,11 +139,14 @@ padding: 16px;
 }
  .landing h3{
    font-style: Bold;
+   font-weight: 900;
    font-size: 20px;
  }
 .landing h1{
     font-style: Bold;
-    font-size: 80px;
+    font-size: 100px;
+    font-family: "CustomFont";
+    font-weight:900;
     }
 .landing p{
 font-weight: 100;
@@ -142,6 +157,7 @@ font-size: 20px;
     padding: 12px;
     border-radius: 12px;
     background-color: #FF4600;
+    font-size: 18px;
     color: #fff;
     border: 0;
 }
@@ -155,7 +171,7 @@ display: flex;
 }
 .scroll p{
 font-weight: 200;
-font-size: 16px;
+font-size: 20px;
 }
 .vl {
     border-left: 1px solid white;
@@ -180,9 +196,12 @@ font-size: 16px;
       display: flex;
   }
   .AboutHeader h1{
-    padding-left: 140px;
+    padding-left: 130px;
     font-size: 30px;
     font-weight: 500;
+}
+.do p{
+    font-size: 20px;
 }
   .smaller{
       color: black;
@@ -238,19 +257,28 @@ font-size: 16px;
     color: #fff;
     border: 0; 
     margin-right: 10px;
+    font-size: 18px;
 }
 .sub{
     padding-top: 10px;
 }
-.sub h2{
-   font-size: 60px;
+.sub h1{
+    font-size: 25px;
+    font-weight: 700;
 }
+.sub h2{
+   font-size: 70px;
+   font-weight: 900;
+}
+.sub span{
+    font-size: 16px;
+ }
 a{
     color: #fff;
 }
 .sub1{
     padding-top: 150px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 200;
     margin-bottom: 100px;
 }
@@ -273,16 +301,19 @@ a{
      font-size: 36px;
 }
 .MoreServices{
-    margin-inline: 8%;
-    padding-inline: 17px;
+    margin-left: 8%;
+    margin-right: 7%;
 }
 .MoreServices hr{
- margin-left: 280px;
- margin-top: -30px;
+ margin-left: 200px;
+ margin-top: -20px;
  border-top: 1px solid black;
 }
 
-
+.MoreServices h1{
+    font-size: 25px;
+    font-weight: 900;
+}
 .swiper-slide{
     background: #fff;
     display: flex;
@@ -339,8 +370,8 @@ a{
     color: #fff;
 }
 .footerContainer{
-    padding-inline: 17px;
-    margin-inline: 8%;
+    margin-left: 8%;
+    margin-right: 7%;
 }
 .footer a{
     color: rgb(173, 173, 173);
@@ -620,6 +651,9 @@ font-size: 12px;
         display: grid;
         grid-template-columns: auto auto auto auto auto auto;
         gap: 8%;
+    }
+    .do p{
+        font-size: 12px;
     }
   }
   @media (max-width:  690px) {
