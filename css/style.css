@@ -575,12 +575,11 @@ footer li{
         margin-left: 20%;
        width: 100%;
     }
- 
     .AboutHeader hr {
-        margin-inline: 8%;
+        margin-inline: 10%;
         border-top: 1px solid #FF4600;
         margin-right: 40%;
-        margin-left: 0%;
+        margin-left: 10%;
       }
       .serviceAll{
         height: 800px;
@@ -597,7 +596,7 @@ footer li{
         font-size: 18px;
          }
      .AboutHeader h1{
-            padding-left: 10px;
+            padding-left: 10%;
             font-size: 20px;
             font-weight: 500;
     }
