@@ -423,12 +423,19 @@ footer li{
     text-decoration: underline;
     color: wh;
 }
+.solutions p{
+    font-size: 20px;
+}
+.footerContainer h2{
+    font-size: 40px;
+}
 .solutionsInput{
     outline: 0;
     border-width: 0 0 2px;
     border-color: rgb(225, 225, 225);
     background: #000;
     margin-bottom: 20px;
+    font-size: 20px;
     width: 240px;
 }
 .solutionsInput:focus {
@@ -456,7 +463,8 @@ footer li{
 .disclaimer li{
    padding-inline: 40px;
    font-weight: 600;
-   margin-top:25px;
+   font-size: 16px;
+   margin-top:24px;
 }
 .onBackground1{
     position: absolute;
