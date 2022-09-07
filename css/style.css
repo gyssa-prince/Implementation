@@ -452,6 +452,19 @@ footer li{
 }
 
 /* Making Responsive */
+@media (max-width: 1425px) {
+    .end{
+      
+        margin-left: 0px;
+    }
+    .navs{
+        gap: 10%;
+    }
+    .navs > div {
+        text-align: center;
+        font-size: 18\px;
+      }
+}
 
 @media (max-width: 1299px) {
     .end{
