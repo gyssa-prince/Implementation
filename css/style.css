@@ -42,6 +42,10 @@
 .MobileNavbar {
     display: none;
   }
+.do{
+color: #ff4600;
+ font-size: 100px;
+}
 .MobileNavbar.active {
     display: flex;
     justify-content: center;
@@ -273,7 +277,9 @@ font-size: 20px;
 }
 .sub span{
     font-size: 16px;
+    color:rgba(191, 191, 191, 0.933);
  }
+
 a{
     color: #fff;
 }
@@ -411,6 +417,11 @@ footer li{
 .contacts a{
   margin-left: 32px;
 }
+.list-unstyled.mb-0 li iconify-icon{
+    color: #ff4600;
+    position: absolute;
+    font-size: 20px;
+}
 .solutions{
     color: rgb(173, 173, 173); 
 }
@@ -422,6 +433,9 @@ footer li{
 .underline{
     text-decoration: underline;
     color: wh;
+}
+.underline a{
+    font-size:20px
 }
 .solutions p{
     font-size: 20px;
@@ -465,6 +479,14 @@ footer li{
    font-weight: 600;
    font-size: 16px;
    margin-top:24px;
+}
+.footerEnd{
+    background-color: #FF4600;
+    height: 80px;
+}
+.navMobile1 iconify-icon{
+    color: white;
+    font-size: 40px;
 }
 .onBackground1{
     position: absolute;
